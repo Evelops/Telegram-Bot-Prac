@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# 토큰 & id 설정
 token = os.getenv("TOEKN")
 chat_id = os.getenv("CHAT_ID")
 
